@@ -1,22 +1,19 @@
 import "./assets/css/index.css";
-import { CategoryArea } from "./components/CategoryArea";
-import { CategoryBelow } from "./components/CategoryBelow";
-import { Footer } from "./components/Footer";
-import { GridWrapper } from "./components/GridWrapper";
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-import { PromiseWrapper } from "./components/PromiseWrapper";
-
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import SignUp from "./SignUp";
+import Welcome from "./Welcome";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <PromiseWrapper />
-      <GridWrapper />
-      <CategoryArea />
-      <CategoryBelow />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/Welcome" element={<Welcome />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.svg";
 export const Header = () => {
   return (
@@ -7,9 +8,9 @@ export const Header = () => {
         <a href="#" className="logo">
           <img src={logo} alt="" />
         </a>
-        <a href="#" className="button">
+        <Link to="/SignUp" className="button">
           Sign Up
-        </a>
+        </Link>
       </header>
     </div>
   );

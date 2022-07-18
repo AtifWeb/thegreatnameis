@@ -9,13 +9,14 @@ import "@splidejs/react-splide/css/sea-green";
 
 // or only core styles
 import "@splidejs/react-splide/css/core";
+
 import { Card } from "./Card";
 import { categoryData } from "./category";
 export const CategoryArea = () => {
   return (
     <div className="CategoryArea common_width">
       <div className="top_area">
-        <h1>Featured Categories</h1>
+        <h1>Our Groceries</h1>
         <nav>
           <li className="active">All</li>
           <li>Vegetables</li>
@@ -30,7 +31,7 @@ export const CategoryArea = () => {
           padding: 0,
           perPage: 7,
           gap: 10,
-          arrows: false,
+          // arrows: false,
           pagination: false,
           breakpoints: {
             1100: {

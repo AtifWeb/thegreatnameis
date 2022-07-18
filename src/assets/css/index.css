@@ -10,6 +10,29 @@
   padding-right: 0px !important;
   padding-bottom: 0px !important;
 }
+.CategoryArea .splide {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.CategoryArea .splide .splide__arrow--prev {
+  left: -1em;
+}
+.CategoryArea .splide button {
+  height: 46.00000000000017px;
+  width: 46.00000000000017px;
+
+  background: #f2f3f4;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+.CategoryArea .splide button svg {
+  width: 25px;
+  height: 25px;
+  fill: #253d4e;
+}
+.splide .splide__arrow--next {
+  right: -1em;
+}
 nav,
 ul {
   list-style: none;
@@ -26,11 +49,16 @@ a {
 .header_wrapper {
   background-color: #fff;
 }
+.header_wrapper .logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 120px;
 }
 header .logo img {
@@ -332,6 +360,49 @@ footer .footer_grid h1 {
   line-height: 18px;
   letter-spacing: 0em;
 }
+.CardSplide {
+  margin: auto;
+}
+.splider_wrapper .splide__pagination {
+  bottom: -1rem;
+}
+.CardSplide .top_area {
+  text-align: center;
+}
+
+.CardSplide .top_area h1 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 10px;
+  letter-spacing: 0em;
+}
+.CardSplide .top_area p {
+  font-size: 12px;
+  font-weight: 400;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0em;
+}
+.CardSplide .top_area p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CardSplide > h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.CardSplide > p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 @media screen and (max-width: 1350px) {
   .common_width {
     width: 90%;
@@ -350,6 +421,12 @@ footer .footer_grid h1 {
   main .presentation p,
   main .presentation h1 {
     text-align: center;
+  }
+  .grid_inner_area {
+    grid-template-columns: 1fr;
+  }
+  .grid_inner_area .splider_wrapper {
+    display: none;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -449,9 +526,6 @@ footer .footer_grid h1 {
   }
 }
 @media screen and (max-width: 650px) {
-  .grid_inner_area {
-    grid-template-columns: 1fr;
-  }
   .grid_inner_area > * {
     min-height: 350px;
   }

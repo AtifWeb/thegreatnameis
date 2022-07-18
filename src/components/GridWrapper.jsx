@@ -1,5 +1,14 @@
 import React from "react";
+import { CardsWrapper } from "./CardsWrapper";
+// Default theme
+import "@splidejs/react-splide/css";
 
+// or other themes
+import "@splidejs/react-splide/css/skyblue";
+import "@splidejs/react-splide/css/sea-green";
+
+// or only core styles
+import "@splidejs/react-splide/css/core";
 export const GridWrapper = () => {
   return (
     <section className="grid_container_area common_width">
@@ -9,16 +18,10 @@ export const GridWrapper = () => {
           <h1>This guy in your inbox!</h1>
           <p>Want a vegeatable or fruit? We send you</p>
         </div>
-        <img
-          src="https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg"
-          alt=""
-        />
+        <CardsWrapper />
       </div>
       <div className="grid_inner_area">
-        <img
-          src="https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_1280.jpg"
-          alt=""
-        />
+        <CardsWrapper />
         <div className="left_side order_now no_order">
           <button>Save time!</button>
           <h1>This guy in your inbox!</h1>
@@ -34,10 +37,7 @@ export const GridWrapper = () => {
             <img src="./assets/img/li_arrow-right.svg" alt="" />
           </button>
         </div>
-        <img
-          src="https://cdn.pixabay.com/photo/2017/10/09/19/29/eat-2834549_1280.jpg"
-          alt=""
-        />
+        <CardsWrapper />
       </div>
     </section>
   );

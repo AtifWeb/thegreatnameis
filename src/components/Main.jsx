@@ -1,6 +1,8 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 export const Main = () => {
+  let navigate = useNavigate();
+  const [EmailValue, setEmailValue] = useState("");
   return (
     <main>
       <div className="main_content common_width">
@@ -15,8 +17,25 @@ export const Main = () => {
             voluptas.
           </p>
           <div className="input_wrapper">
-            <input type="text" placeholder="Enter your email address" />
-            <button>subscribe</button>
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              value={EmailValue}
+              onChange={(e) => {
+                setEmailValue(e.target.value);
+              }}
+            />
+            <button
+              onClick={(e) => {
+                if (EmailValue != "") {
+                  navigate("/SignUp");
+                } else {
+                  window.alert("Please Enter Email Address");
+                }
+              }}
+            >
+              subscribe
+            </button>
           </div>
         </div>
       </div>
