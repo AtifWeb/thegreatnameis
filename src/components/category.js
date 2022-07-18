@@ -11,83 +11,97 @@ export const categoryData = [
     title: "Peach",
     item: "20",
     bgColor: "#FEEFEA",
+    cat:'Fruits'
   },
   {
     img: img2,
     title: "Vegetables",
     item: "220",
-    bgColor: "#FFF3FF",
+    bgColor: "#FFF3FF",    
+    cat:'Vegetables'
   },
   {
     img: img3,
     title: "strawberry",
     item: "10",
     bgColor: "#F2FCE4",
+    cat:'Fruits'
   },
   {
     img: img4,
     title: "Apple",
     item: "40",
     bgColor: "#FEEFEA",
+    cat:'Fruits'
   },
   {
     img: img5,
     title: "Orange",
     item: "23",
     bgColor: "#ECFFEC",
+    cat:'Fruits'
   },
   {
     img: img6,
     title: "Potato",
     item: "3",
     bgColor: "#FFFCEB",
+    cat:'Vegetables'
   },
   {
     img: img7,
     title: "Carrot",
     item: "9",
     bgColor: "#DEF9EC",
+    cat:'Vegetables'
   },
   {
     img: img1,
     title: "Peach",
     item: "20",
     bgColor: "#FEEFEA",
+    cat:'Fruits'
   },
   {
     img: img2,
     title: "Vegetables",
     item: "220",
-    bgColor: "#FFF3FF",
+    bgColor: "#FFF3FF",    
+    cat:'Vegetables'
   },
   {
     img: img3,
     title: "strawberry",
     item: "10",
     bgColor: "#F2FCE4",
+    cat:'Fruits'
   },
   {
     img: img4,
     title: "Apple",
     item: "40",
     bgColor: "#FEEFEA",
+    cat:'Fruits'
   },
   {
     img: img5,
     title: "Orange",
     item: "23",
     bgColor: "#ECFFEC",
+    cat:'Fruits'
   },
   {
     img: img6,
     title: "Potato",
     item: "3",
     bgColor: "#FFFCEB",
+    cat:'Vegetables'
   },
   {
     img: img7,
     title: "Carrot",
     item: "9",
     bgColor: "#DEF9EC",
+    cat:'Vegetables'
   },
 ];

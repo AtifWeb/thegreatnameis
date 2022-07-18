@@ -15,7 +15,7 @@ function Home() {
       <PromiseWrapper />
       <GridWrapper />
       <CategoryArea />
-      <CategoryBelow />
+      {/* <CategoryBelow /> */}
       <Footer />
     </div>
   );

@@ -10,12 +10,21 @@
   padding-right: 0px !important;
   padding-bottom: 0px !important;
 }
+.CategoryArea{
+margin-bottom: 6rem !important;
+}
 .CategoryArea .splide {
   padding-left: 3rem !important;
   padding-right: 3rem !important;
 }
 .CategoryArea .splide .splide__arrow--prev {
   left: -1em;
+}
+.CategoryArea nav li{
+  cursor:pointer;
+}
+.CategoryArea.no_data .splide__arrow--next,.CategoryArea.no_data .splide__arrow--prev{
+visibility: hidden !important;
 }
 .CategoryArea .splide button {
   height: 46.00000000000017px;
@@ -138,7 +147,7 @@ main .presentation .input_wrapper button {
 .promise_wrapper {
   min-height: 1000px;
   padding: 4rem 0rem;
-  margin-top: 6rem;
+
   font-family: "Quicksand", sans-serif;
   background: url("../img/promise_bg.png");
   background-size: cover;
