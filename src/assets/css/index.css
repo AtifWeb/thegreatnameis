@@ -432,10 +432,10 @@ footer .footer_grid h1 {
     text-align: center;
   }
   .grid_inner_area {
-    grid-template-columns: 1fr;
+ display:block;
   }
   .grid_inner_area .splider_wrapper {
-    display: none;
+    /* display: none; */
   }
 }
 @media screen and (max-width: 1050px) {
@@ -627,6 +627,22 @@ footer .footer_grid h1 {
     margin-left: auto;
     margin-right: auto;
   }
+.grid_inner_area .order_now{
+  background-position-x: -220px;
+}.grid_inner_area .no_order {
+   
+  background-position-x: -270px;
+}
+.grid_inner_area .order_now p{
+  width: 70%;
+}
+.header_wrapper .logo{
+position: static;
+transform: translateX(0px);
+}
+header{
+  justify-content: space-between;
+}
 }
 
 @media screen and (max-width: 450px) {
