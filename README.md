@@ -40,3 +40,11 @@ or a tag
 
 
 now you can change the link and add the link inside href or inside too attribute
+
+# how to run this on local server
+first the thing you need is code file
+then you need to install modules
+you can install node modules using npm install command
+after installing you can see the extra folder name nodemodules
+then the last thing is use npm start command
+in this way you can run this on local server

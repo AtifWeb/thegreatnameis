@@ -8,9 +8,9 @@ export const Header = () => {
         <a href="#" className="logo">
           <img src={logo} alt="" />
         </a>
-        <Link to="/SignUp" className="button">
+        <a href="#span_section_wrapper" className="button">
           Sign Up
-        </Link>
+        </a>
       </header>
     </div>
   );

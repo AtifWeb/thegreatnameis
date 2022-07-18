@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 .SignUp {
   height: 100vh;
   background: url("./assets/img/Sign_bg.png");
