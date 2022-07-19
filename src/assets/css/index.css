@@ -161,6 +161,11 @@ main .presentation .input_wrapper button {
   background: url("../img/promise_bg.png");
   background-size: cover;
 }
+.promise_wrapper .content_area {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .promise_wrapper .preseentation_area {
   width: 50%;
 }
@@ -488,7 +493,7 @@ footer .footer_grid h1 {
     min-height: unset;
   }
   .promise_wrapper {
-    background: #d9f2e6;
+    background-position-x: -260px;
   }
   .promise_wrapper .preseentation_area {
     width: 100%;

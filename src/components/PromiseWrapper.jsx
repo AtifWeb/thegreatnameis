@@ -5,7 +5,7 @@ import list3 from "../assets/img/list3.png";
 export const PromiseWrapper = () => {
   return (
     <section className="promise_wrapper">
-      <div className="content_area common_width">
+      <div className="content_area">
         <div className="preseentation_area">
           <h1>Say no to compromises.</h1>
           <ul>
