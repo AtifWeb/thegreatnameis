@@ -21,11 +21,16 @@ export const GridWrapper = () => {
         <CardsWrapper />
       </div>
       <div className="grid_inner_area">
-        <CardsWrapper />
+        <div className="for_desktop">
+          <CardsWrapper />
+        </div>
         <div className="left_side order_now no_order">
           <button>Save time!</button>
           <h1>This guy in your inbox!</h1>
           <p>Want a vegeatable or fruit? We send you</p>
+        </div>
+        <div className="for_mbl">
+          <CardsWrapper />
         </div>
       </div>
       <div className="grid_inner_area">
